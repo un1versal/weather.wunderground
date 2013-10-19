@@ -1,3 +1,6 @@
+v2.0.3
+- update languege files
+
 v2.0.2
 - add weather provider logo property
 
