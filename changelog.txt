@@ -1,3 +1,6 @@
+v3.0.0
+- gotham release
+
 v2.0.3
 - update languege files
 
