@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
+	<category label="32520">
+		<setting id="Enabled" label="32110" type="bool" default="false"/>
+		<setting label="32523" type="lsep" enable="eq(-1,true)" />
+		<setting label="32524" type="lsep" enable="eq(-2,true)" />
+		<setting id="WAIK" label="32525" type="text" enable="eq(-3,true)" default=""/>
+	</category>
 	<category label="32101">
 		<setting id="Enabled" label="32110" type="bool" default="false"/>
 		<setting type="sep"/>

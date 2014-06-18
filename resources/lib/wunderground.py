@@ -1,13 +1,23 @@
 # -*- coding: utf-8 -*-
 
-import urllib2, gzip, base64
+import urllib2, gzip, xbmcaddon, xbmcgui
 from StringIO import StringIO
 
-WAIK             = ''
+ADDON            = xbmcaddon.Addon('weather.wunderground')
+ADDONNAME        = ADDON.getAddonInfo('name')
+LANGUAGE         = ADDON.getLocalizedString
+WAIK             = ADDON.getSetting('WAIK')
 WUNDERGROUND_URL = 'http://api.wunderground.com/api/%s/%s/%s/q/%s.%s'
 
 def wundergroundapi(features, settings, query, fmt):
-    url = WUNDERGROUND_URL % (base64.b64decode(WAIK)[::-1], features, settings, query, fmt)
+    try:
+        key = WAIK
+    except:
+        dialog = xbmcgui.Dialog()
+        ok = dialog.ok(ADDONNAME, LANGUAGE(32522).encode('utf-8', 'ignore'))
+        data = ''
+        return data
+    url = WUNDERGROUND_URL % (key, features, settings, query, fmt)
     try:
         req = urllib2.Request(url)
         req.add_header('Accept-encoding', 'gzip')

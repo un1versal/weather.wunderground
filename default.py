@@ -43,6 +43,7 @@ WEATHER_FEATURES = 'hourly/conditions/forecast10day/astronomy/almanac/alerts/sat
 FORMAT           = 'json'
 ENABLED          = __addon__.getSetting('Enabled')
 DEBUG            = __addon__.getSetting('Debug')
+WAIK             = __addon__.getSetting('WAIK')
 XBMC_PYTHON      = xbmcaddon.Addon(id='xbmc.python').getAddonInfo('version')
 WEATHER_ICON     = xbmc.translatePath('special://temp/weather/%s.png').decode("utf-8")
 WEATHER_WINDOW   = xbmcgui.Window(12600)
@@ -632,6 +633,11 @@ elif ENABLED == 'false':
 elif XBMC_PYTHON == '1.0' or XBMC_PYTHON == '2.0' or XBMC_PYTHON == '2.0.0':
     clear()
     log('older versions of XBMC are not supported by the weather underground addon')
+elif WAIK == '':
+    dialog = xbmcgui.Dialog()
+    ok = dialog.ok(__addonname__, __language__(32523) + ' ' + __language__(32524))
+    __addon__.setSetting('Enabled', 'false')
+    log('you need to provide your private weather underground API key in addon settings')
 else:
     location = __addon__.getSetting('Location%s' % sys.argv[1])
     locationid = __addon__.getSetting('Location%sid' % sys.argv[1])

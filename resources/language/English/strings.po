@@ -181,3 +181,25 @@ msgstr ""
 msgctxt "#32516"
 msgid "Synopsis"
 msgstr ""
+
+msgctxt "#32520"
+msgid "General"
+msgstr ""
+
+#empty string with id 32521
+
+msgctxt "#32522"
+msgid "The entered API key does not match criteria. Please check the provided API key in add-on settings."
+msgstr ""
+
+msgctxt "#32523"
+msgid "Please provide your personal Wunderground API key."
+msgstr ""
+
+msgctxt "#32524"
+msgid "You can request this at http://www.wunderground.com"
+msgstr ""
+
+msgctxt "#32525"
+msgid "API key"
+msgstr ""

@@ -1,3 +1,11 @@
+v4.0.3
+- user should now provide his personal API key
+- fix WAIK should be what user input not minus one character
+- fix location input in settings never become usable
+- fix no base64 decode of key.
+  else users needs to encode the api key they get
+  from weather wunderground and bas64 encode before input in addon settings	 
+
 v4.0.1
 - broken
 
