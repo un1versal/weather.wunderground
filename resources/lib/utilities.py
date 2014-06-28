@@ -9,12 +9,13 @@ __language__ = sys.modules[ "__main__" ].__language__
         # xbmc lang name         # wu code
 LANG = { 'afrikaans'             : 'AF',
          'albanian'              : 'AL',
-         'amharic'               : 'EN', # AM is n/a, use AR or EN? 
+         'amharic'               : 'EN', # AM is n/a, use AR or EN?
          'arabic'                : 'AR',
+         'armenian'              : 'HY',
          'azerbaijani'           : 'AZ',
          'basque'                : 'EU',
          'belarusian'            : 'BY',
-         'bosnian'               : 'CR', # BS is n/a, use CR or SR? 
+         'bosnian'               : 'CR', # BS is n/a, use CR or SR?
          'bulgarian'             : 'BU',
          'burmese'               : 'MY',
          'catalan'               : 'CA',
@@ -26,6 +27,8 @@ LANG = { 'afrikaans'             : 'AF',
          'dutch'                 : 'NL',
          'english'               : 'LI',
          'english (us)'          : 'EN',
+         'english (australia)'   : 'LI',
+         'english (new zealand)' : 'LI',
          'esperanto'             : 'EO',
          'estonian'              : 'ET',
          'faroese'               : 'DK', # FO is n/a, use DK
@@ -49,6 +52,7 @@ LANG = { 'afrikaans'             : 'AF',
          'malay'                 : 'EN', # MS is n/a, use EN
          'malayalam'             : 'EN', # ML is n/a, use EN
          'maltese'               : 'MT',
+         'maori'                 : 'MI',
          'norwegian'             : 'NO',
          'ossetic'               : 'EN', # OS is n/a, use EN
          'persian'               : 'FA',
@@ -66,13 +70,14 @@ LANG = { 'afrikaans'             : 'AF',
          'spanish (argentina)'   : 'SP',
          'spanish (mexico)'      : 'SP',
          'swedish'               : 'SW',
+         'tajik'                 : 'FA', # TG is n/a, use FA or EN?
          'tamil (india)'         : 'EN', # TA is n/a, use EN
+         'telugu'                : 'EN', # TE is n/a, use EN
          'thai'                  : 'TH',
          'turkish'               : 'TU',
          'ukrainian'             : 'UA',
          'uzbek'                 : 'UZ',
          'vietnamese'            : 'VU',
-         'vietnamese (viet nam)' : 'VU',
          'welsh'                 : 'CY'}
 
 WEATHER_CODES = { 'chanceflurries'    : '41',

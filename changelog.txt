@@ -1,3 +1,6 @@
+v3.0.9
+- mapping for new languages supported by xbmc
+
 v3.0.8
 - new artwork
 
@@ -26,7 +29,7 @@ v3.0.0
 - gotham release
 
 v2.0.3
-- update languege files
+- update language files
 
 v2.0.2
 - add weather provider logo property
