@@ -1,7 +1,7 @@
 INFO FOR SKINNERS
 
 ---------------------------
-DEFAULT XBMC WEATHER LABELS
+DEFAULT KODI WEATHER LABELS
 ---------------------------
 
 
