@@ -1,5 +1,14 @@
-INFO FOR SKINNERS
+----------------------------------------------------------------------------------------------
+DISCLAIMER for the code @ https://github.com/uNiversaI/weather.wunderground/tree/personal_api
+----------------------------------------------------------------------------------------------
 
+This addon is neither supported or maintained by me nor anyone previously associated with it.
+It is here for reference and my _explicit personal use_.
+
+If you wish to become a new maintainer/provider for this addon fell free, it is GPLv2 so do as you will.
+
+
+INFO FOR SKINNERS
 ---------------------------
 DEFAULT KODI WEATHER LABELS
 ---------------------------

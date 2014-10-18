@@ -6,7 +6,7 @@ import xbmc
 __language__ = sys.modules[ "__main__" ].__language__
 
 #http://www.wunderground.com/weather/api/d/docs?d=language-support
-        # xbmc lang name         # wu code
+        # Kodi lang name         # wu code
 LANG = { 'afrikaans'             : 'AF',
          'albanian'              : 'AL',
          'amharic'               : 'EN', # AM is n/a, use AR or EN?

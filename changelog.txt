@@ -1,10 +1,14 @@
 v4.0.3
+
+[B]looking for a new maintainer from version 4.0.1 and newer.[/B]
 - user should now provide his personal API key
-- fix WAIK should be what user input not minus one character
 - fix location input in settings never become usable
-- fix no base64 decode of key.
+- fix no base64 decode of WAIK.
   else users needs to encode the api key they get
-  from weather wunderground and bas64 encode before input in addon settings	 
+  from weather underground and bas64 encode before input in addon settings
+- remove Team Kodi as provider for addon
+  (there is  no provider atm this is for my personal use and not supported or recommended)
+- remove original source and forums links
 
 v4.0.1
 - broken
@@ -31,7 +35,7 @@ v3.0.4
 - fixed wind was undefined in some cases
 
 v3.0.3
-- update languege files
+- update language files
 
 v3.0.2
 - fixed addon could disable itself when setting up locations
@@ -141,7 +145,7 @@ v0.1.8
 
 v0.1.7
 - clear alert properties when there are no alerts
-- delete chached images when weather location is changed
+- delete cached images when weather location is changed
 
 v0.1.6
 - fix 36 hour heading and temp for certain languages
